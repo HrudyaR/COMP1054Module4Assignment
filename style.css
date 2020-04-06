@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
+
+.clear {
+  clear: both;
+  display: table;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.logo {
+  font-size: 200%;
+  margin: 0 auto;
+  max-width: 980px;
+  color: #263a5f;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Navigation CSS */
+nav {
+  padding: 1em;
+  background-color: #263a5f;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav li a {
+  color: #ffb6b6;
+  text-decoration: none;
+  padding: .5em 1em;
+  transition: all ease 0.3s;
+}
+nav li a:hover {
+  color: white;
+}
+
+nav li.active a {
+  color: white;
+}
+
+.feature {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+main {
+  padding: 10px 0 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+main > article, main > aside {
+  width: 50%;
+}
+
+main > article {
+  padding-right: 10px;
+}
+
+main > aside {
+  padding-left: 10px;
+}
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.photos li {
+  width: 50%;
+  float: left;
+  padding: 1px;
+}
+
+.photos li img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #263a5f;
+  color: white;
+  font-size: 10px;
+}
